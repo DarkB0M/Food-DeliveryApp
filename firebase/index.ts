@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 //@ts-ignore
 import { getAuth,initializeAuth,getReactNativePersistence } from 'firebase/auth'
 import AsyncStorage from "@react-native-async-storage/async-storage";
-
+//
 const firebaseConfig = {
     apiKey: "",
     authDomain: "food-appdelivery.firebaseapp.com",
