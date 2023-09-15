@@ -4,7 +4,7 @@ import { Auth } from '../firebase'
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { Redirect } from 'expo-router';
-// Logic for Login
+// Login
 export default function App(){
     const [user,Loading,error] = useAuthState(Auth)
     if(!user){
